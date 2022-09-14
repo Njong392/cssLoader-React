@@ -1,0 +1,60 @@
+{
+    "blogs":[
+        {
+            "title":"CSS skeleton loaders with React",
+            "thumbnail":"https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_960_720.jpg",
+            "avatar":"https://cdn.pixabay.com/photo/2017/06/01/00/44/smiling-2362136_960_720.jpg",
+            "author":"Njong Emy",
+            "description": "lorem ipsum dolor amet..."
+        },
+        {
+            "title":"Vanilla JavaScript vs React",
+            "thumbnail":"https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_960_720.jpg",
+            "avatar":"https://cdn.pixabay.com/photo/2017/06/01/00/44/smiling-2362136_960_720.jpg",
+            "author":"Njong Emy",
+            "description": "lorem ipsum dolor amet..."
+        },
+        {
+            "title":"Borders with HTML canvas",
+            "thumbnail":"https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_960_720.jpg",
+            "avatar":"https://cdn.pixabay.com/photo/2017/06/01/00/44/smiling-2362136_960_720.jpg",
+            "author":"Njong Emy",
+            "description": "lorem ipsum dolor amet..."
+        },
+        {
+            "title":"Why the internet is fun",
+            "thumbnail":"https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_960_720.jpg",
+            "avatar":"https://cdn.pixabay.com/photo/2017/06/01/00/44/smiling-2362136_960_720.jpg",
+            "author":"Njong Emy",
+            "description": "lorem ipsum dolor amet..."
+        },
+        {
+            "title":"My Tech Journey",
+            "thumbnail":"https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_960_720.jpg",
+            "avatar":"https://cdn.pixabay.com/photo/2017/06/01/00/44/smiling-2362136_960_720.jpg",
+            "author":"Njong Emy",
+            "description": "lorem ipsum dolor amet..."
+        },
+        {
+            "title":"CSS skeleton loaders with React",
+            "thumbnail":"https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_960_720.jpg",
+            "avatar":"https://cdn.pixabay.com/photo/2017/06/01/00/44/smiling-2362136_960_720.jpg",
+            "author":"Njong Emy",
+            "description": "lorem ipsum dolor amet..."
+        },
+        {
+            "title":"CSS skeleton loaders with React",
+            "thumbnail":"https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_960_720.jpg",
+            "avatar":"https://cdn.pixabay.com/photo/2017/06/01/00/44/smiling-2362136_960_720.jpg",
+            "author":"Njong Emy",
+            "description": "lorem ipsum dolor amet..."
+        },
+        {
+            "title":"CSS skeleton loaders with React",
+            "thumbnail":"https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_960_720.jpg",
+            "avatar":"https://cdn.pixabay.com/photo/2017/06/01/00/44/smiling-2362136_960_720.jpg",
+            "author":"Njong Emy",
+            "description": "lorem ipsum dolor amet..."
+        }
+    ]
+}
