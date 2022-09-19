@@ -9,7 +9,7 @@ const App = () => {
 
     useEffect(() => {
         setTimeout(() => {
-            fetch(' http://localhost:3000/blogs')
+            fetch(' http://localhost:5000/blogs')
             .then(response => {
                 if(!response.ok){
                     throw Error('Sorry, some error occurred while fetching your blogs.');
@@ -32,7 +32,9 @@ const App = () => {
     return(
         <div>
            {blogs && <Blogs blogs = {blogs} /> }
-           {loading && <Skeleton/>}
+            <div className="container">
+                {loading && [1,2,3,4,5,6,7].map((n) => <Skeleton key={n}/>)}
+            </div>
            {error && <div className='container'><span className='error'>Error connecting to the server. Connection failed.</span></div>}
         </div>
     )

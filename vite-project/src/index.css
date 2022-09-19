@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+/* blogs display */
 .container{
   display: grid;
   grid-template-columns: 6fr 6fr;
@@ -14,21 +15,27 @@ header{
   align-items: center;
 }
 .author .name{
-  font-weight: bold;
+  font-weight: bold; 
   font-size: large;
   margin-left: 1rem;
+}
+.title{
+  font-weight:bold;
+  font-size:30px;
 }
 .text{
   font-weight: lighter;
   font-size: large;
+  line-height:1em;
+  width: 25em;
 
 }
 footer{
   line-height: 1rem;
 }
 .avatar img{
-   height: 60px;
-   width: 60px;
+   height: 80px;
+   width: 80px;
    border-radius: 50%;
    object-fit: cover;
 }
@@ -42,8 +49,42 @@ footer{
   color: red;
 }
 
+/* Skeleton styles*/
 .skeleton-blog{
-  background: gray;
-  height: 10px;
-  width: 10px;
+  margin-bottom: 2em;
+  animation: scale 4s infinite;
+}
+.skeleton-avatar{
+  background: #E5E4E2;
+  height: 60px;
+   width: 60px;
+   border-radius: 50%;
+}
+.skeleton-author{
+  background: #E5E4E2;
+  height: 30px;
+  width: 150px;
+  margin-left: 1rem;
+  border-radius: 6px;
+}
+.skeleton-image{
+  height: 200px;
+  width: 320px;
+  border-radius: 6px;
+  background: #E5E4E2;
+  margin-top: 10px;
+}
+.skeleton-footer{
+  height: 30px;
+  width: 280px;
+  border-radius: 6px;
+  background: #E5E4E2;
+  margin-top: 10px;
+}
+
+/* Skeleton animation*/
+@keyframes scale {
+  0% {transform: scale(0.9)}
+  100% {transform: scale(1)}
+  
 }

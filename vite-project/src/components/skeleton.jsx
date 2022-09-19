@@ -1,6 +1,6 @@
+
 const Skeleton = () => {
     return(
-        <div className="skeleton-container">
             <div className="skeleton-blog">
                 <header>
                     <div className="skeleton-avatar">
@@ -11,12 +11,13 @@ const Skeleton = () => {
                 </header>
 
                 <main className="skeleton-image">
-                </main>
+                </main> 
 
                 <footer className="skeleton-footer">
                 </footer>
             </div>
-    </div>
+    
+        
 
 );
 };

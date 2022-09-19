@@ -18,7 +18,7 @@ const Blogs = ({blogs}) => {
                     </main>
 
                     <footer>
-                        <h2>{blog.title}</h2>
+                        <p className="title">{blog.title}</p>
                         <p className="text">{blog.description}</p>
                     </footer>
                 </div>
